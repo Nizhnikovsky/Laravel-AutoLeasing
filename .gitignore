@@ -1,11 +1,13 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+/node_modules
+/storage/*.key
+/.idea
 
-# Other files and folders
-.settings/
+Homestead.json
+Homestead.yaml
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+.env
+.gitignore
+webpack.mix.js
+/public/css/app.css
+/public/js/app.js
+
